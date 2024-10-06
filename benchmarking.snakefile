@@ -1,6 +1,6 @@
 #sra_search_bin="/home/ctbrown/scratch/magsearch/bin/searcher"
-#manysearch_cmd = "sourmash scripts manysearch "
-manysearch_cmd = "sourmash scripts manysearch --ignore-abundance"
+manysearch_cmd = "sourmash scripts manysearch "
+#manysearch_cmd = "sourmash scripts manysearch --ignore-abundance"
 
 rule all:
     input:
