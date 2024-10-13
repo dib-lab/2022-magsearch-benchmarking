@@ -105,7 +105,7 @@ rule a_vs_c:
 rule a_vs_d:
     input:
         queries="data/gtdb-list-a.sigs.txt",
-        against="data/wort-list-d.txt",
+        against="wort-list.d.mf.csv",
     output:
         csv="outputs/output_a_vs_d.csv",
     resources:
